@@ -6,7 +6,7 @@ This is the MITgcm simulation of a flow over a gaussian bump based on [exp2](htt
 
 1. Follow the [Getting Started](https://mitgcm.readthedocs.io/en/latest/getting_started/getting_started.html) section on MITgcm documentation to set up the model.
 2. Clone this experiment to the MITgcm folder (you can also download the repository and extract it to MITgcm folder.)
-3. Create the `build` and `run` folders inside `ocean_gyre_tank`. 
+3. Create the `build` and `run` folders inside `gaussian_bump`. 
 4. Go to `build` and compile the model with `mpi` (see the [MITgcm documentation](https://mitgcm.readthedocs.io/en/latest/)).
 5. Copy the executable `mitgcmuv` to the `run` folder.
 6. Create a symbolic link to the files in `input` for `run` folder.
