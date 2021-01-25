@@ -1,6 +1,6 @@
 # Flow Over Gaussian Bump
 
-This is the MITgcm simulation of a flow over a gaussian bump.
+This is the MITgcm simulation of a flow over a gaussian bump based on [exp2](https://github.com/MITgcm/MITgcm/tree/master/verification/exp2) from MITgcm documentation.
 
 ## How to set up the experiment
 
