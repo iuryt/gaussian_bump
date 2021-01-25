@@ -1,0 +1,8 @@
+# Packages
+ &PACKAGES
+ useOBCS=.TRUE.,
+ usePtracers=.TRUE.,
+ useRBCS=.TRUE.,
+ useMNC=.TRUE.,
+#useLayers=.TRUE.,
+ &
