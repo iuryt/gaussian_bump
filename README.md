@@ -9,7 +9,14 @@ This is the MITgcm simulation of a flow over a gaussian bump based on [exp2](htt
 
 This is part of a mentoring that I am giving to the BSME student Alan Adonian from prof. Amit Tandon's [laboratory](https://tandonlab.sites.umassd.edu/people/) (UMassD). I created this repository to organize the numerical experiments I am running for him to analyze. 
 
-The main idea is to familiarize him to basic Geophysical Fluid Dynamics problems and Python programming. And, of course, give him an opportunity to learn more about control version on GitHub.
+The main idea is to familiarize him to basic Geophysical Fluid Dynamics problems and Python programming. And, of course, give him an opportunity to learn more about control version on GitHub. One of the first problems is the [Taylor-Proudman Theorem](https://en.wikipedia.org/wiki/Taylor%E2%80%93Proudman_theorem). This experiment is perfect to understand this theorem, as even being 400m above the top of the gaussian bump, the flow cannot "jump it", which results into a [Taylor column](https://en.wikipedia.org/wiki/Taylor_column) above the bump. 
+
+<img src="https://github.com/iuryt/gaussian_bump/blob/main/notebooks/img/quiver_zeta_13m_N0.png" data-canonical-src="https://github.com/iuryt/gaussian_bump/blob/main/notebooks/img/quiver_zeta_13m_N0.png" width="600" height="auto" />
+
+The same does not happen to an stratified fluid, in which thermal-wind balance allows vertical shear.
+
+
+<img src="https://github.com/iuryt/gaussian_bump/blob/main/notebooks/img/quiver_zeta_13m_NC.png" data-canonical-src="https://github.com/iuryt/gaussian_bump/blob/main/notebooks/img/quiver_zeta_13m_NC.png" width="600" height="auto" />
 
 I also believe that this repository can help other students that are beginning to setup and run their own numerical simulations using MITgcm. 
 
