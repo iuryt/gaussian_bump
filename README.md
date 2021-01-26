@@ -1,8 +1,14 @@
 # Flow Over Gaussian Bump
 
-This is the MITgcm simulation of a flow over a gaussian bump based on [exp2](https://github.com/MITgcm/MITgcm/tree/master/verification/exp2) from MITgcm documentation.
+This is the MITgcm simulation of a flow over a gaussian bump based on [exp2](https://github.com/MITgcm/MITgcm/tree/master/verification/exp2) from MITgcm documentation. 
+
 
 <img src="https://github.com/iuryt/gaussian_bump/blob/main/notebooks/img/Init_BAT.png" data-canonical-src="https://github.com/iuryt/gaussian_bump/blob/main/notebooks/img/Init_BAT.png" width="600" height="auto" />
+
+## Context
+
+This is part of a mentoring that I am giving to the BSME student Alan Adonian from prof. Amit Tandon's [laboratory](https://tandonlab.sites.umassd.edu/people/) (UMassD). I created this repository to organize the numerical experiments I am running for him to analyze. The main idea is to familiarize him to basic Geophysical Fluid Dynamics problems and Python programming. And, of course, give him an opportunity to learn more about control version on GitHub.
+
 
 ## How to run an experiment
 
