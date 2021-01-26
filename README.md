@@ -39,7 +39,8 @@ If you are using a supercomputer, check with support how to setup a batch script
 In `notebooks` there is a file called [`00-Init.ipynb`](https://github.com/iuryt/gaussian_bump/blob/main/notebooks/00-Init.ipynb) that creates the initial conditions
 The data will be saved to `input` folder. You may have to change the grid spacing in `input_<experiment>/data` or number of points in [`code/SIZE.h`](https://github.com/iuryt/gaussian_bump/blob/main/code/SIZE.h) if you change the code in the notebooks.
 
-We define the Barotropic velocity from the free surface using the geostrophic balance:
+We define the Barotropic velocity from the free surface using the geostrophic balance <img src="https://render.githubusercontent.com/render/math?math=u = -\dfrac{g}{f}\dfrac{d\eta}{dy}">:
+
 <img src="https://github.com/iuryt/gaussian_bump/blob/main/notebooks/img/Init_ETA.png" data-canonical-src="https://github.com/iuryt/gaussian_bump/blob/main/notebooks/img/Init_BAT.png" width="auto" height="200" />
 
 We defined three options for the initial mass field: homogeneous (N0), constant stratification (NC) and with a thermocline defined by a `tanh` (NZ).
