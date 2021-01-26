@@ -1,6 +1,9 @@
 # Exclude build and run folders
 ./build
-./run*
+./run_N0
+./run_NC
+./run_NZ
+./input/*.bin
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
