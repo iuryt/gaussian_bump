@@ -1,0 +1,8 @@
+#!/bin/bash
+#BSUB -n 4
+#BSUB -R rusage[mem=4000]
+#BSUB -W 03:00
+#BSUB -oo mitgcm.log
+
+source /home/is96d/.bash_profile
+mpiexec -n 4 ./mitgcmuv
