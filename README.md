@@ -7,7 +7,7 @@ This is the MITgcm simulation of a flow over a gaussian bump based on [exp2](htt
 
 ## Context
 
-This is part of a mentoring that I am giving to the BSME student Alan Adonian from prof. Amit Tandon's [laboratory](https://tandonlab.sites.umassd.edu/people/) (UMassD). I created this repository to organize the numerical experiments I am running for him to analyze. 
+This is part of a mentoring that I am giving to the BSME student Alan Andonian from prof. Amit Tandon's [laboratory](https://tandonlab.sites.umassd.edu/people/) (UMassD). I created this repository to organize the numerical experiments I am running for him to analyze. 
 
 The main idea is to familiarize him to basic Geophysical Fluid Dynamics problems and Python programming. And, of course, give him an opportunity to learn more about control version on GitHub. One of the first problems is the [Taylor-Proudman Theorem](https://en.wikipedia.org/wiki/Taylor%E2%80%93Proudman_theorem). This experiment is perfect to understand this theorem, as even being 400m above the top of the gaussian bump, the flow cannot "jump it", which results into a [Taylor column](https://en.wikipedia.org/wiki/Taylor_column) above the bump. 
 
