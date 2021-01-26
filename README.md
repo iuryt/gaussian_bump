@@ -7,7 +7,11 @@ This is the MITgcm simulation of a flow over a gaussian bump based on [exp2](htt
 
 ## Context
 
-This is part of a mentoring that I am giving to the BSME student Alan Adonian from prof. Amit Tandon's [laboratory](https://tandonlab.sites.umassd.edu/people/) (UMassD). I created this repository to organize the numerical experiments I am running for him to analyze. The main idea is to familiarize him to basic Geophysical Fluid Dynamics problems and Python programming. And, of course, give him an opportunity to learn more about control version on GitHub.
+This is part of a mentoring that I am giving to the BSME student Alan Adonian from prof. Amit Tandon's [laboratory](https://tandonlab.sites.umassd.edu/people/) (UMassD). I created this repository to organize the numerical experiments I am running for him to analyze. 
+
+The main idea is to familiarize him to basic Geophysical Fluid Dynamics problems and Python programming. And, of course, give him an opportunity to learn more about control version on GitHub.
+
+I also believe that this repository can help other students that are beginning to setup and run their own numerical simulations using MITgcm. 
 
 
 ## How to run an experiment
